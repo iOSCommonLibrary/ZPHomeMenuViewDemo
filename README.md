@@ -1,4 +1,9 @@
 # ZPHomeMenuViewDemo
+
+说明点：手势还是按钮点击在这。tag
+-(void)OnTapBtnView:(UITapGestureRecognizer *)sender{
+    NSLog(@"tag:%d",sender.view.tag);
+}
 > 项目中有使用，觉得挺多应用需要，我就简单封装了一下，方法比较笨，同时希望多提意见，我进行修改。
 
 
